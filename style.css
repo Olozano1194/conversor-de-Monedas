@@ -17,8 +17,10 @@ body {
     background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000;
+    /* background-color: #000; */
     height: 100vh;
+    min-height: 560px;
+    
 }
 
 header {
@@ -49,15 +51,32 @@ main {
     margin: 0 auto;
 }
 
+main .container {
+    width: 100%;
+    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1000px;
+    height: auto;
+    
+    
+}
+
 main .main-section--container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 200px;
+    min-height: 100%;
     padding: 10px;
-    min-width: 320px;
-    max-width: 1000px;
+    /* min-width: 220px; */
+    /* max-width: 1000px; */
+
+    border: 1px solid rgba(245, 245, 248, 1);
+    
 
 }
 
@@ -66,7 +85,12 @@ main .main-section--container label {
     font-size: 1.5rem;
     line-height: 3.8rem;
     color: #fff;
+    
 
+}
+
+main .main-section--container select {
+    width: 100%;
 }
 
 main .main-section--container .btn {
@@ -111,9 +135,3 @@ main .main-img--center {
     margin-top: 30px;
 }
 
-footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 20px;
-}

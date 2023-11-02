@@ -16,22 +16,25 @@
         </div>
     </header>
     <main>
-        <section class="main-section--container">
-            <label for="valor">Digite el valor</label>
-            <input id="valor" type="text" placeholder="$">
-
-            <label for="conversor">Escoja la divisa</label>
-            <select name="" id="conversor">
-                <option value="dolar">Peso Colombiano a Dolar</option>
-                <option value="euro">Peso Colombiano a Euro</option>
-                <option value="libraEsterlina">Peso Colombiano a Libra Esterlina</option>
-                <option value="francoSuizo">Peso Colombiano a Franco Suizo</option>
-            </select>
-
-            <button class="btn" onclick="convertirDivisas()">Convertir</button>
-
-            <p>Resultado: $<span id="result"></span></p=>
+        <section class="container">
+            <section class="main-section--container">
+                <label for="valor">Digite el valor</label>
+                <input id="valor" type="text" placeholder="$">
+    
+                <label for="conversor">Escoja la divisa</label>
+                <select name="" id="conversor">
+                    <option value="dolar">Peso Colombiano a Dolar</option>
+                    <option value="euro">Peso Colombiano a Euro</option>
+                    <option value="libraEsterlina">Peso Colombiano a Libra Esterlina</option>
+                    <option value="francoSuizo">Peso Colombiano a Franco Suizo</option>
+                </select>
+    
+                <button class="btn" onclick="convertirDivisas()">Convertir</button>
+    
+                <p>Resultado: $<span id="result"></span></p=>
+            </section>
         </section>
+        
         
 
         <a href="https://www.aluracursos.com/" target="_blank">
