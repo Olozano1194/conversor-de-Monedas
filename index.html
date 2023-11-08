@@ -3,48 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Font Awesome-->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./style.css">
-
-    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <h1 class="header-container--title">Conversor de Monedas</h1>
-            <img class="page-logo" src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" alt="logo">
-        </div>
+        <h1>Escoge la opción que deseas realizar</h1>
+        <p>Por favor escoger una de las dos opciones</p>
     </header>
+    
     <main>
-        <section class="container">
-            <section class="main-section--container">
-                <label for="valor">Digite el valor</label>
-                <input id="valor" type="text" placeholder="$">
-    
-                <label for="conversor">Escoja la divisa</label>
-                <select name="" id="conversor">
-                    <option value="dolar">Peso Colombiano a Dolar</option>
-                    <option value="euro">Peso Colombiano a Euro</option>
-                    <option value="libraEsterlina">Peso Colombiano a Libra Esterlina</option>
-                    <option value="francoSuizo">Peso Colombiano a Franco Suizo</option>
-                </select>
-    
-                <button class="btn" onclick="convertirDivisas()">Convertir</button>
-    
-                <p>Resultado: $<span id="result"></span></p=>
-            </section>
-        </section>
-        
-        
+        <a href="./convertidorDeMoneda.html">Convertidor de Monedas</a>
+        <a href="./medidorTemperatura.html">Medidor de Temperatura</a>
+    </main>
 
-        <a href="https://www.aluracursos.com/" target="_blank">
-
-            <img class="main-logo--right" src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="">
-            <img class="main-img--center" src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png" alt="">
+    <footer>
+        <div class="redesSociales">
+            <p class="copyright">&copy Creado por Oscar Lozano - 2022</p>
             
-        </a>
-    </main> 
-
-    <script src="./script.js"></script>
+            <a class="linkedin" href="https://www.linkedin.com/in/OlozanoBocanegra">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            
+            <a class="github" href="https://github.com/Olozano1194">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </footer>
+        
 </body>
 </html>
