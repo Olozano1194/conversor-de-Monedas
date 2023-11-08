@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/styleConvertidorDivisas.css">
+
+    <title>Conversor de Monedas</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="header-container--title">Conversor de Monedas</h1>
+            <img class="page-logo" src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" alt="logo">
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <section class="main-section--container">
+                <label for="valor">Digite el valor</label>
+                <input id="valor" type="text" placeholder="$">
+    
+                <label for="conversor">Escoja la divisa</label>
+                <select name="" id="conversor">
+                    <option value="dolar">Peso Colombiano a Dolar</option>
+                    <option value="euro">Peso Colombiano a Euro</option>
+                    <option value="libraEsterlina">Peso Colombiano a Libra Esterlina</option>
+                    <option value="francoSuizo">Peso Colombiano a Franco Suizo</option>
+                </select>
+    
+                <button class="btn" onclick="convertirDivisas()">Convertir</button>
+    
+                <p>Resultado: $<span id="result"></span></p=>
+            </section>
+        </section>
+        
+        
+
+        <a href="https://www.aluracursos.com/" target="_blank">
+
+            <img class="main-logo--right" src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="">
+            <img class="main-img--center" src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png" alt="">
+            
+        </a>
+    </main> 
+
+    <script src="./script.js"></script>
+</body>
+</html>
